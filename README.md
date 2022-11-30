@@ -28,7 +28,7 @@ crontab -e
 保存后重启服务，再查看一下定时任务
 
 ```sh
-service crond restart
+service cron restart
 crontab -l
 ```
 
